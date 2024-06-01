@@ -1,4 +1,4 @@
-package com.websocket.websocket;
+package com.backend.websocket;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

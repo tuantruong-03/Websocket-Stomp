@@ -1,4 +1,4 @@
-package com.websocket.websocket;
+package com.backend.websocket;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
