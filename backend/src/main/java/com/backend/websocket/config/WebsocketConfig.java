@@ -15,6 +15,7 @@ public class WebsocketConfig implements WebSocketMessageBrokerConfigurer {
         registry.setApplicationDestinationPrefixes("/app");
         registry.enableSimpleBroker("/chatroom", "/user");
         registry.setUserDestinationPrefix("/user");
+        // After mapping message in "app/private-message", server send message to "/user/..."
     }
 
     @Override
